@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jenis Sampah</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="https://www.instagram.com/fndi.ahmddd/?next=%2F" class="logo"
+          ><img src="../logo.png" alt="Logo" />BANKSAMPAH</a
+        >
+
+        <ul class="menu">
+          <li><a href="../index.html">Beranda</a></li>
+          <li><a href="../index.html#tentang">Tentang</a></li>
+          <li><a href="kritik-saran.html">Kritik Dan Saran</a></li>
+     
+        </ul>
+        <div class="tombol">&#9776;</div>
+      </div>
+    </nav>
+    <marquee
+      behavior="scroll"
+      direction="left"
+      style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0)"
+      >Jangan Lupa Buang Sampah Pada Tempatnya Yaaa!!</marquee
+    >
+    <section class="mobil-section">
+      <h2>Jenis Sampah</h2>
+      <div class="mobil-container">
+        <div class="mobil-card">
+          <img src="../asset/img/sampah-organik1.png" alt="Produk 1" />
+          <h3>Sampah Organik</h3>
+          <p>
+            Sampah yang berasal dari sisa makhluk hidup atau alam, seperti
+            buah-buahan, sayur-sayuran, sisa makanan, kotoran hewan, dan
+            dedaunan kering. Sampah organik dapat terurai secara alami di
+            lingkungan.
+          </p>
+          <a href="harga.html" class="btn-primary">Lihat Harga </a>
+        </div>
+        <div class="mobil-card">
+          <img src="../asset/img/JENIS-SAMPAH-ANORGANIK-BESERTA-MANFAATNYA.jpg" alt="Produk 3" />
+          <h3>Sampah Anorganik</h3>
+          <p>
+            Sampah yang berasal dari benda tak hidup, seperti plastik, kertas,
+            dan kaleng-kaleng. Sampah anorganik umumnya tidak dapat terurai,
+            namun sebagian dapat didaur ulang.
+          </p>
+          <a href="anorganik.html" class="btn-primary">Lihat Harga </a>
+        </div>
+        
+      </div>
+      
+    </section>
+    <footer>
+      <p>Customer Service: <a href="mailto:banksampahmlg123@gmail.com">banksampahmlg123@gmail.com</a></p>
+      <p>Telepon: <a href="tel:+6281252328864">0812-5232-8864</a></p>
+      <p>&copy; 2024 Bank Sampah Malang. All rights reserved.</p>
+    </footer>
+    <script type="text/javascript">
+      const tombol = document.querySelector(".tombol");
+      const menu = document.querySelector(".menu");
+      tombol.addEventListener("click", () => {
+        menu.classList.toggle("aktif");
+      });
+    </script>
+  </body>
+</html>
